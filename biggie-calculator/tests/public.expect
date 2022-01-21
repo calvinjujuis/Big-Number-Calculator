@@ -1,0 +1,6 @@
+add 2 2 => 4
+add 6 -2 => 4
+sub 8 4 => 4
+mult 17 8 => 136
+eq 11 1 => false
+gt 11 1 => true

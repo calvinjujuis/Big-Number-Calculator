@@ -1,0 +1,7 @@
+add 2 2
+add 6 -2
+sub 8 4
+mult 17 8
+eq 11 1
+gt 11 1
+quit
