@@ -4,18 +4,10 @@
 #include <assert.h>
 #include "biggie.h"
 
-/////////////////////////////////////////////////////////////////////////////
-// DO NOT CHANGE THIS STRUCTURE
-/////////////////////////////////////////////////////////////////////////////
 struct biggie {
   bool negative;
   char *digits;
 };
-// notes: digits is a properly null-terminated dynamic string
-//        digits contains the number reversed, so 1203 => "3021"
-//        digits cannot have leading zeros, so 1203 cannot be "30210"
-//        zero is stored as "0" and cannot be negative (negative is false)
-/////////////////////////////////////////////////////////////////////////////
 
 struct biggie *biggie_create(const char *s) {
   assert(s);
